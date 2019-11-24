@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://Superprentice.github.io/2019/11/24/my-first-test/</loc>
+    
+    <lastmod>2019-11-24T08:53:55.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://Superprentice.github.io/friends/index.html</loc>
     
     <lastmod>2019-11-24T08:40:08.000Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://Superprentice.github.io/contact/index.html</loc>
     
     <lastmod>2019-11-24T07:36:00.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://Superprentice.github.io/2019/11/24/my-first-test/</loc>
-    
-    <lastmod>2019-11-24T07:27:51.000Z</lastmod>
     
   </url>
   
@@ -37,14 +37,14 @@
   </url>
   
   <url>
-    <loc>https://Superprentice.github.io/archives/index.html</loc>
+    <loc>https://Superprentice.github.io/categories/index.html</loc>
     
     <lastmod>2019-09-25T14:13:10.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://Superprentice.github.io/categories/index.html</loc>
+    <loc>https://Superprentice.github.io/archives/index.html</loc>
     
     <lastmod>2019-09-25T14:13:10.000Z</lastmod>
     
