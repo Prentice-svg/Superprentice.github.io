@@ -4,11 +4,15 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="java, Prentice KDD 数据分析 数据挖掘">
+    <meta name="keywords" content="油猴脚本编写, Prentice KDD 数据分析 数据挖掘">
     <meta name="baidu-site-verification" content>
     <meta name="google-site-verification" content>
     <meta name="360-site-verification" content>
-    <meta name="description" content="java | Prentice的博客">
+    <meta name="description" content="油猴脚本编写
+用户脚本命名规则用户脚本文件名必须以.user.js结尾
+第一个用户脚本示例helloworld.user.js
+// @name         New Userscript
+// @namespace    http://">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -16,7 +20,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>java | Prentice的博客</title>
+    <title>油猴脚本编写 | Prentice的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -227,13 +231,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/16.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/14.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        java
+                        油猴脚本编写
                     </div>
                 </div>
             </div>
@@ -355,7 +359,7 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-11-24
+                    2019-11-26
                 </div>
 
                 <div class="post-author info-break-policy">
@@ -369,7 +373,7 @@
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    0
+                    119
                 </div>
                 
 
@@ -387,7 +391,31 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <h1 id="油猴脚本编写"><a href="#油猴脚本编写" class="headerlink" title="油猴脚本编写"></a>油猴脚本编写</h1><hr>
+<h2 id="用户脚本命名规则"><a href="#用户脚本命名规则" class="headerlink" title="用户脚本命名规则"></a>用户脚本命名规则</h2><p>用户脚本文件名必须以.user.js结尾</p>
+<h2 id="第一个用户脚本示例"><a href="#第一个用户脚本示例" class="headerlink" title="第一个用户脚本示例"></a>第一个用户脚本示例</h2><p>helloworld.user.js</p>
+<pre><code>// @name         New Userscript
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       You
+// @match        http://*/*
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    &#39;use strict&#39;;
+    alert(&#39;hello,world&#39;)
+})();</code></pre><ul>
+<li>@name就是脚本名</li>
+<li>@namespace是脚本的主页</li>
+<li>@version是版本</li>
+<li>@description是介绍</li>
+<li>@author是作者</li>
+<li>@match是匹配到什么页面执行此脚本</li>
+<li>@grant是需求权限</li>
+</ul>
+
             </div>
             <hr />
 
@@ -545,9 +573,9 @@
             <br/>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
                   property="dct:title" rel="dct:type">
-                    《java》
+                    《油猴脚本编写》
                 </span> 由
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/java/index.html" property="cc:attributionName"
+            <a xmlns:cc="http://creativecommons.org/ns#" href="/2019/11/26/you-hou-jiao-ben-bian-xie/" property="cc:attributionName"
                rel="cc:attributionURL">
                 Prentice
             </a> 采用
@@ -588,7 +616,7 @@
         repo: 'superprentice.github.io',
         owner: 'Superprentice',
         admin: "Superprentice",
-        id: 'java/index.html',
+        id: '2019/11/26/you-hou-jiao-ben-bian-xie/',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -609,36 +637,36 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
-            </div>
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/java/index.html">
+                <a href="/2019/11/26/markdown-ji-ben-yu-fa/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="java">
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="Markdown基本语法">
                         
-                        <span class="card-title">java</span>
+                        <span class="card-title">Markdown基本语法</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。
+相比WYSIWYG编辑器
+优点： 1、因为是纯文本，所以只要支持Markdown的地方都能获得一样的编辑效果，可以让作者摆脱排版的困扰，专
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-11-24
-                            </span>
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-11-26
+                        </span>
                         <span class="publish-author">
                             
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
@@ -646,34 +674,44 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="fa fa-dot-circle-o"></i>
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/java/index.html">
+                <a href="/2019/11/26/hexo-bolg-ji-ben-ming-ling/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="java">
+                        <img src="/medias/featureimages/25.jpg" class="responsive-img" alt="Hexo Bolg 基本命令">
                         
-                        <span class="card-title">java</span>
+                        <span class="card-title">Hexo Bolg 基本命令</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            Hexo Bolg 基本操作命令
+官方文档HEXO.IO
+创建一篇新的文章hexo new [layout] &lt;title&gt;e.hexo new &quot;My First Bolg&quot;
+
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-11-24
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-11-26
                             </span>
                         <span class="publish-author">
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/hexo/" target="_blank">
+                        <span class="chip bg-color">hexo</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -817,6 +855,13 @@
 
 </main>
 
+
+<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
+    });
+</script>
 
     <footer class="page-footer bg-color">
     <div class="container row center-align">
